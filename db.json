@@ -144,7 +144,7 @@
         ]
     },
     
-    "sellersStores":{
+    "sellersstores":{
         "columns":[
             {
                 "title": "Store name",
