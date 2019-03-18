@@ -1,5 +1,5 @@
 {
-    "productList":{
+    "products":{
         "columns":[
             {
                 "title": "Product Name",
@@ -41,7 +41,7 @@
             }
         ]
     },
-    "skuList":{
+    "skus":{
         "columns":[
             {
                 "title": "SKU Name",
@@ -84,7 +84,7 @@
             }
         ]
     },
-    "sellerList":{
+    "sellers":{
         "columns":[
             {
                 "title": "Seller name",
@@ -144,7 +144,7 @@
         ]
     },
     
-    "sellersStoresList":{
+    "sellersStores":{
         "columns":[
             {
                 "title": "Store name",
