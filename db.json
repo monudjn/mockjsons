@@ -1,1 +1,210 @@
+{
+    "productList":{
+        "columns":[
+            {
+                "title": "Product Name",
+                "dataIndex": "productName",
+                "sorter": "defaultSortOrder"
+            },
+            {
+                "title": "SKUs created",
+                "dataIndex": "skuscreated",
+                "sorter": "defaultSortOrder"
+            },
+            
+            {
+                "title": "Cost price",
+                "dataIndex": "costprice",
+                "sorter": "defaultSortOrder"
+            },
+            {
+                "title": "edit/delete/display",
+                "key": "operation",
+                "scopedSlots": { "customRender": "action" }
+              }
+        ],
+        "data":[
+            {
+                "productName": "Dose",
+                "skuscreated": "36",
+                "costprice" :60
+            },
+            {
+                "productName": "Idli",
+                "skuscreated": "36",
+                "costprice" :30
+            },
+            {
+                "productName": "Vade",
+                "skuscreated": "36",
+                "costprice" :30
+            }
+        ]
+    },
+    "skuList":{
+        "columns":[
+            {
+                "title": "SKU Name",
+                "dataIndex": "skumName",
+                "sorter": true
+            },
+            {
+                "title": "No. of Products",
+                "dataIndex": "numberOfProducts"
+                
+            },
+            {
+                "title": "Cost price",
+                "dataIndex": "costprice",
+                "sorter": true
+            },  
+            {
+                "title": "Sold as Item",
+                "dataIndex": "soldAsItem",
+                "sorter": true
+            },
+            {
+                "title": "edit/delete/display",
+                "key": "operation",
+                "scopedSlots": { "customRender": "action" }
+              }
+        ],
+        "data":[
+            {
+                "skumName": "Dose",
+                "numberOfProducts": "36",
+                "costprice" :60,
+                "soldAsItem": "Yes"
+            },
+            {
+                "skumName": "Dose",
+                "numberOfProducts": "36",
+                "costprice" :60,
+                "soldAsItem": "Yes"
+            }
+        ]
+    },
+    "sellerList":{
+        "columns":[
+            {
+                "title": "Seller name",
+                "dataIndex": "sellerName",
+                "sorter": true
+            },
+            {
+                "title": "Total Sales",
+               "dataIndex": "totalSales"      
+            },
+            {
+                "title": "Total transactions",
+                "dataIndex": "totalTransactions",
+                "sorter": true
+            },
+              
+            {
+                "title": "Scheduled items",
+                "dataIndex": "scheduledItems",
+                "sorter": true
+            },
+            {
+                "title": "Rating",
+                "dataIndex": "rating",
+                "sorter": true
+            },
+            {
+                "title": "edit/delete/display",
+                "key": "operation",
+                "scopedSlots": { "customRender": "action" }
+              }
+        ],
+        "data":[
+            {
+                "sellerName": "Jubiliant Foodworks",
+                "numberOfProducts": "21,439.00",
+                "totalTransactions" :468,
+                "scheduledItems": "24",
+                 "rating" : 4.5
+
+
+            },
+            {
+                "sellerName": "Manthri Mahal",
+                "numberOfProducts": "1,21,439.00",
+                "totalTransactions" :1468,
+                "scheduledItems": "247",
+                "rating" : 4.5
+            }, 
+            {
+                "sellerName": "Gopalan ",
+                "numberOfProducts": "7,21,439.00",
+                "totalTransactions" :468,
+                "scheduledItems": "647",
+                "rating" : 2.3
+            }
+        ]
+    },
+    
+    "sellersStoresList":{
+        "columns":[
+            {
+                "title": "Store name",
+                "dataIndex": "storeName",
+                "sorter": true
+            },
+            {
+                "title": "Total Sales",
+                "dataIndex": "totalSales"
+                
+            },
+            
+            {
+                "title": "Total transactions",
+                "dataIndex": "totalTransactions",
+                "sorter": true
+            },
+              
+            {
+                "title": "Item count",
+                "dataIndex": "itemCount",
+                "sorter": true
+            },
+            {
+                "title": "Rating",
+                "dataIndex": "rating",
+                "sorter": true
+            },
+            {
+                "title": "edit/delete/display",
+                "key": "operation",
+                "scopedSlots": { "customRender": "action" }
+              }
+        ],
+        "data":[
+            {
+                "storeName": "Store name1",
+                "totalSales": "21,439.00",
+                "totalTransactions" :468,
+                "itemCount": "24",
+                 "rating" : 4.5
+
+
+            },
+            {
+                "storeName": "Store name2",
+                "totalSales": "21,439.00",
+                "totalTransactions" :468,
+                "itemCount": "24",
+                 "rating" : 4.5
+            },
+            
+            {
+                "storeName": "Store name3",
+                "totalSales": "21,439.00",
+                "totalTransactions" :468,
+                "itemCount": "24",
+                 "rating" : 4.5
+            }
+        ]     
+    }
+}
 
